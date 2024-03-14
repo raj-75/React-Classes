@@ -32,6 +32,7 @@ function App() {
 <Navbar title="TextUtil" aboutText = {30}/>
 <Alert alert={alert}/>
 <Router>
+  <h1>test</h1>
     <div className="container my-3">
     <Routes>
           <Route exact path="/about" element={<About/>}/>
